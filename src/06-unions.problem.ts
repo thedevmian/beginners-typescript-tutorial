@@ -2,7 +2,7 @@ interface User {
   id: number;
   firstName: string;
   lastName: string;
-  role: "admin" | "user" | "super-admin";
+  role: "admin" | "super-admin";
   /**
    * How do we ensure that role is only one of:
    * - 'admin'
